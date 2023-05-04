@@ -18,7 +18,13 @@ This contains different sections:
 
 ## Quick start
 
-Upload this `Sriharsha_Mopidevi.tex` to [Overleaf](https://www.overleaf.com/) and compile it and download it.
+- Create an account in [Overleaf](https://www.overleaf.com/).
+
+- Create a **New Project** then select **Blank Project** and give it a name.
+
+- Replace the content in `main.tex` with the `Sriharsha_Mopidevi.tex`.
+
+- Now Recompile it and download the PDF.
 
 ## Preview
 
