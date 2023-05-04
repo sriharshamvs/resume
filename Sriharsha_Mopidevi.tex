@@ -1,0 +1,220 @@
+%-------------------------
+% Resume in Latex
+% Author : Sriharsha Mopidevi
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----Custom Update----------
+\usepackage{ragged2e}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+\usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyhead{} % clear all header fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{3.60004pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      {\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      {\small#1} & {\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----GPA------
+\newcommand{\resumeSubheadingWithGPA}[5]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      {\small#3} $|$ {\small \textbf{GPA}: #4} & {} {\small #5}
+    \end{tabular*}\vspace{-7pt}
+}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Sriharsha Mopidevi} \\ \vspace{1pt}
+    198 Tonnele Ave, Jeresey City, NJ 07306\\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 571-295-2881 \hspace{3pt} \href{mailto:sriharshamvs@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \textcolor{blue}{\underline{sriharshamvs@gmail.com}}} \hspace{3pt} \href{https://www.linkedin.com/in/sriharshamvs/}{\raisebox{-0.2\height}\faLinkedin\ \textcolor{blue}{\underline{linkedin.com/in/sriharshamvs}}} \hspace{3pt} \href{https://github.com/sriharshamvs}{\raisebox{-0.2\height}\faGithub\ \textcolor{blue}{\underline{github.com/sriharshamvs}}} \hspace{3pt} \href{https://blog.sriharshamvs.com/}{\raisebox{-0.2\height}\faBlogger\ \textcolor{blue}{\underline{blog.sriharshamvs.com}}}
+
+
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{SUMMARY}
+\begin{justify}\small
+Experienced Software Engineer pursuing a Master's degree in Computer Science with 3+ years of Full Stack Development, Microservice Architecture experience. Skilled in Python, JavaScript, Linux, Unit testing, and Agile methodology. Strong understanding of Algorithms, Data Structures, and Version Control systems like Git. Proficient in Frameworks \& libraries such as Django, Flask, NextJS, ReactJS, Pandas. Knowledgeable in Database Management including SQL, PostgreSQL, and MongoDB. Experience with Cloud Platforms such as AWS and implementing Serverless and RESTful API architecture.
+\end{justify}
+
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {GSPAN}{August 2019 -- January 2022}
+      {Software Engineer}{New Delhi, India}
+      \resumeItemListStart
+        \resumeItem{Built and deployed a lightweight Progressive Web Application for User Management System using Nextjs, streamlining organizational administrative tasks and increasing productivity by 25\%.}
+        \resumeItem{Boosted website traffic by 5x by developing a customizable web-app for visualizing Indian General and Assembly elections and COVID-19 stats, utilizing open-source mapping libraries (Deckgl, Mapbox, Reactvis) and incorporating interactive features for alliances, swings, and result comparisons.}
+        \resumeItem{Leveraged React-vis, Deckgl and Recharts libraries to develop reusable React components for data visualization, leading to a 2x increase in development speed for several projects.}
+        \resumeItem{Implemented a Serverless architecture using Netlify and AWS Lambda functions to reduce operational costs by 70\% for web application projects in the organization.}
+        \resumeItem{Created fully automated ETL pipelines using Python and FastAPI to generate REST API endpoints, facilitating cross-organizational data retrieval and analysis and leading to a 60\% increase in productivity.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming/ Scripting Languages}: \hspace{21pt} Python, JavaScript, C, TypeScript, Go, Node.js,HTML, CSS, Shell Scripting, GraphQL \\[2pt]
+     \textbf{Software Development Methodologies}: \hspace{10pt} Agile, Scrum, JIRA, Continuous Integration, Continuous Delivery \\[2pt]
+     \textbf{Frameworks}: \hspace{115pt} Django, Flask, NextJS, Express, VueJS, React Native, React.js, Redux, Recoil \\[2pt]
+     \textbf{Libraries}: \hspace{129pt} Pandas, Scikit-learn, PyQt5, Selenium, Tailwind CSS\\[2pt]
+     \textbf{Database Management}: \hspace{71pt} SQL, PostgreSQL, MySQL, Oracle, NoSQL, MongoDB\\[2pt]
+     \textbf{Architecture}: \hspace{115pt} MVC, JAM Stack, Serverless, REST\\[2pt]
+     \textbf{OS / Tools / Cloud}: \hspace{93pt} Linux, Git, Docker, AWS, Jenkins
+    }}
+ \end{itemize}
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Health App} $|$ {Lead Software Engineer (Capstone Project)}}{November 2022 –- Present}
+          \resumeItemListStart
+            \resumeItem{Developed an Android mobile app using the React Native framework and enhanced the app's functionality by utilizing Recoil and React Native Paper. The app allows users to track nutrition and connect with fitness trainers and dietitians.}
+            \resumeItem{Engineered backend services using Gin framework and database on AWS, along with an automated CI/CD pipeline using Jenkins to reduce mobile app deployment time by 50\%, ensuring seamless deployment and continuous testing.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Swecha Live Streaming} $|$ {Software Engineer}}{July 2020 –- July 2022}
+          \resumeItemListStart
+            \resumeItem{Deployed a cost-effective Open-Source Low Latency Live Streaming technology utilized by 200+ institutions during the COVID pandemic.}
+            \resumeItem{Built a containerized web application with Django framework, Postgres database for user authentication and streaming data, and an admin dashboard for user role and stream assignment, leading to an 80\% reduction in deployment time.}
+          \resumeItemListEnd  
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheadingWithGPA
+      {PACE University, Seidenberg School of Computer Science and Information Systems}{January 2022 -- May 2023}
+      {Master in Science (MS) Computer Science} {3.87/4.0} {New York, NY}
+      \vspace{5pt}
+    \resumeSubheadingWithGPA
+      {ACE Engineering College}{May 2019}
+      {Bachelor of Technology (B.Tech) Electronics and Communications} {3.4/4.0} {Hyderabad, India}
+  \resumeSubHeadingListEnd
+
+
+%-----------VOLUNTEERING---------------
+\section{VOLUNTEERING}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Free Software Movement of India}{Hyderabad, India}{Executive Committee Member}{August 2019 -- July 2022}
+            \resumeItemListStart
+                \resumeItem{Trained 600+ students by conducting Bootcamp and workshops on Linux Administration, Python, and IoT.}
+                \resumeItem{Recognized by various Free and Open Source communities, including FSMI and Mozilla, for expertise in web development and web plugins.}
+                \resumeItem{Delivered effective training programs and facilitated a conducive learning environment, contributing to the growth and success of the organization.}
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+\end{document}
