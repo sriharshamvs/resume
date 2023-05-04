@@ -22,4 +22,4 @@ Upload this `Sriharsha_Mopidevi.tex` to [Overleaf](https://www.overleaf.com/) an
 
 ## Preview
 
-![resume_preview](resume_preview.png)
+![Sriharsha_Mopidevi_preview](Sriharsha_Mopidevi_preview.png)
